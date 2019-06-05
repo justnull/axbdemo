@@ -35,11 +35,11 @@ public class ArgsParser {
                 return false;
             }
         };
-        allKeysMap.put("l", new ArgSchema("p", 0, pInteger));
+        allKeysMap.put("p", new ArgSchema("p", 0, pInteger));
         Predicate<String> pStr = (String i) -> {
             return true;
         };
-        allKeysMap.put("l", new ArgSchema("d", "", pStr));
+        allKeysMap.put("d", new ArgSchema("d", "", pStr));
 
     }
 
