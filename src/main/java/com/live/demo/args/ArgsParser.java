@@ -1,5 +1,6 @@
 package com.live.demo.args;
 
+import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.validation.constraints.NotNull;
@@ -12,6 +13,7 @@ import java.util.function.Predicate;
  * @Author zhouyuhao
  * @Date 2019/6/4 1:03 PM
  */
+@Data
 public class ArgsParser {
   private final Map<String, ArgSchema> allKeysMap = new HashMap<>();
 
