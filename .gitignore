@@ -29,6 +29,7 @@ hs_err_pid*
 *.iml
 **/*.iml
 .classpath
+.vscode
 # compiled
 target/
 # mvn
